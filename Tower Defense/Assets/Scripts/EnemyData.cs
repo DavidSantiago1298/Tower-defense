@@ -9,13 +9,15 @@ public class EnemyData : ScriptableObject
     public float runSpeed = 2f;
     public float attackDuration = 1f;
     public float attackCooldown = 1f;
+
+    public string attackSoundName = "EnemyAttack";
     public string primaryTargetTag = "Tower";
     public string runAnimationName = "Run";
     public string attckAnimationName = "Attack";
 
     public string dieAnimationName = "Death";
 
-    public string winAnimationName = "Win";
+    public string winAnimationName = "EnemyWin";
 
 
 

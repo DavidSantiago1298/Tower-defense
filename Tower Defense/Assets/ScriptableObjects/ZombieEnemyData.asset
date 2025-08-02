@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: ZombieEnemyData
   m_EditorClassIdentifier: 
   attackRange: 0.09
-  attackDamage: 25
-  runSpeed: 0.05
+  attackDamage: 50
+  runSpeed: 0.01
   attackDuration: 1
-  attackCooldown: 1
+  attackCooldown: 2
+  attackSoundName: Zombie_Attack
   primaryTargetTag: Tower
-  runAnimationName: Run
-  attckAnimationName: Attack
-  dieAnimationName: Death
+  runAnimationName: Zombie_Run
+  attckAnimationName: Zombie_Attack
+  dieAnimationName: Zombie_Death
+  winAnimationName: Zombie_Win
